@@ -122,7 +122,7 @@ local theme = lush(function(injected_functions)
     SignColumn { bg = norm_bg },
     IncSearch { bg = '#515c6a' },
     -- Substitute { },
-    MatchParen { bg = gray, gui = 'bold, underline' },
+    MatchParen { bg = gray, gui = 'bold' },
     ModeMsg { fg = norm_fg },
     MsgArea { fg = norm_fg },
     -- MsgSeparator { },
